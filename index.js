@@ -15,6 +15,9 @@ const apiProxy = httpProxy.createProxyServer();
 //Static
 // app.use('/:id', express.static(path.join(__dirname))); 
 //Popular Dishes
+app.get("/test", (req, res) => {
+  console.log("TEST");
+});
 app.all("/popular/:n", function(req, res) {
   //API callback
   const popular = `http://localhost:3002`;
