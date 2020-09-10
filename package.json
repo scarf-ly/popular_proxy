@@ -19,7 +19,7 @@
   "homepage": "https://github.com/the-munch/header-proxy#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "http-proxy": "^1.17.0",
+    "http-proxy": "^1.18.1",
     "k6": "0.0.0",
     "newrelic": "^5.11.0",
     "nodemon": "^1.19.1"
